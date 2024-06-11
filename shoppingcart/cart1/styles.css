@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lexend", sans-serif;
+}
+
+
+.outer {
+    width: 585px;
+    height: 560px;
+    background-color: rgba(254, 186, 70, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+
+.cart {
+    width: 458.9px;
+    height: 418.11px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    position: relative;
+}
+
+.left {
+    width: 157px;
+    height: 100%;
+    background: 
+    linear-gradient(-90deg, rgba(0, 0, 0, 0.25) 0%, rgba(255, 255, 255, 0) 100%) border-box,
+    url(images/fashion.png)border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 40% 50%;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+
+}
+
+
+.right {
+    width: 304px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: flex-end;
+    padding: 0 67px 0 24px;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 21.75px;
+    color: black;
+}
+
+
+h3 {
+    color: rgba(151, 151, 151, 1);
+    font-size: 12.55px;
+    font-weight: 400;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rating h6 {
+    font-size: 9.41px;
+    font-weight: 400;
+    color: rgba(99, 99, 99, 1);
+}
+
+
+.rating span {
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    gap: 1px;
+}
+
+span .icon {
+    color: #FFD600;
+    font-size: 10px;
+}
+
+span .icon-ash {
+    color: #D3D3D3;
+    font-size: 10px;
+}
+
+.right p {
+    font-size: 9.16px;
+    font-weight: 300;
+    color: #5F5F5F;
+    margin: 20px 0 16px 0;
+}
+
+.btn-size {
+    border-radius: 2.5px;;
+    padding: 4.17px 7.5px;
+    border-radius: 25;
+    font-weight: 300;
+    font-size: 9.16px;
+    background-color: transparent;
+    border: 0.83px solid #D9D9D9;
+    color: #626262;
+    margin-bottom: 10px;
+    
+}
+
+.active,
+.btn-size:hover {
+    background-color: #FEBA46;
+    border: none;
+    color: white;
+
+}
+
+.add-to-cart {
+    width: 134.13px;
+    height: 35.82px;
+    background-color: #FEBA46;
+    padding: 5.9px 10.62px;
+    border: none;
+    border-radius: 32.95px;
+    color: white;
+    font-size: 12.98px;
+    font-weight: 400;
+    margin: 25px 0;
+    transition: all 0.8s ease-in-out;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    transform: scale(1.1);
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+    gap: 6.6px;
+    margin-top: 10px;
+}
+
+.add-sub {
+    background-color: #FEBA46;
+    border: none;
+    border-radius: 1.98px;
+    padding: 0 5.94px;
+    
+}
+
+.quantity-number  {
+    border: 0.66px solid #FEBA46;
+    background-color: transparent;
+    border-radius: 1.98px;
+    width: 16.49px;
+    height: 20.83px;
+    text-align: center;
+    font-size: 9.23px;
+    font-weight: 300;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image1 {
+    position: absolute;
+    top: 10px;
+    left: 220px;
+    background: url(images/image1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    width: 108.25px;
+    height: 108.25px;
+    border: 10px solid #FFDA9B;
+}
+
+.image2 {
+    position: absolute;
+    top: 10px;
+    left: 110px;
+    background: url(images/image1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    width: 108.25px;
+    height: 108.25px;
+    border: 10px solid #FFDA9B;
+}
+
+.shopping-cart {
+    position: absolute;
+    background-color: transparent;
+    color: black;
+    top: 20px;
+    right: 30px;
+}
