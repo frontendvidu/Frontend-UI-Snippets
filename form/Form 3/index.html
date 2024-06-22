@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Details</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="outer">
+        <div class="top">
+            <div class="left">
+                <div class="one">
+                    <label class="labelText" for="">Card number</label>
+                    <input type="number" placeholder="1 2 3 4  5 6 7 8  9 * * *">
+                </div>
+    
+                <div class="two">
+                    <label class="labelText"  for="">Name on card</label>
+                    <input type="text" placeholder="frontend vidu">
+                </div>
+    
+                <div class="three">
+                    <div>
+                        <label class="labelText"  for="">Expiry date</label>
+                        <input class="date" type="number" placeholder="9/10">
+                    </div>
+                    <div>
+                        <label class="labelText"  for="">CVV</label>
+                        <input class="cvv"  type="number" placeholder="123">
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="card">
+                    <div class="green-circle"></div>
+                    <div class="purple-elipse"></div>
+                    <div class="green-circle-two"></div>
+                    <div class="green-circle-three"></div>
+                    <div class="purple-elipse-two"></div>               
+                    <div class="card-content">
+                        <div class="card-top">
+                            <img src="images/visa.png" alt="">
+                            <img src="images/Vector.png" alt="">
+                        </div>
+                        <div class="card-middle">
+                            <span><p class="card-number">4 7 1 6</p></span>
+                            <span><p class="card-number">8 0 3 9</p></span>
+                            <span><p class="card-number">0 2 * *</p></span>
+                            <span><p class="card-number">* * * *</p></span>
+                        </div>
+                        <div class="card-bottom">
+                            <p class="bottom-text">frontendvidu</p>
+                            <p class="bottom-text">**/**</p>
+                        </div>
+                    </div>
+                </div>
+                <p class="labelText"><i class="fa-solid fa-shield icon"></i>Secured connection</p>
+            </div>
+        </div>
+
+        <button class="pay-button">Proceed to Payment</button>
+    </div>
+    
+</body>
+</html>
