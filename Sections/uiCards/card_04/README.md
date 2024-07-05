@@ -1,3 +1,4 @@
 # Preview
 
-![Free 1 (1)](https://github.com/frontendvidu/public/assets/132292859/ae1d6c7c-2692-49f6-a617-50f4f04f5073)
+![image](https://github.com/frontendvidu/public/assets/132292859/aa8f3b95-c9f7-4f96-904f-4e55d5060cd3)
+
