@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* font-family: "Poppins", sans-serif; 
+font-family: "Sofia Sans", sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#hero {
+  padding: 100px;
+  display: flex; /*i am putting idsplay flex here and using block in js*/
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+}
+
+.slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide img {
+  width: 499px;
+  height: 639px;
+  object-fit: cover;
+  object-position: center;
+}
+
+header {
+  position: absolute;
+  z-index: 2;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 14px 155px;
+}
+
+.header_right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 108px;
+}
+
+.header_right button {
+  background-color: #1c1415;
+  color: white;
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  /* padding: 38px 14px; */
+  border-radius: 50px;
+  width: 167px;
+  height: 64px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 90px;
+}
+
+nav a {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #1c1415;
+}
+
+h1 {
+  font-family: "Sofia Sans", sans-serif;
+  font-size: 66px;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+h2 {
+  font-family: "Sofia Sans", sans-serif;
+  font-size: 42px;
+  font-weight: 900;
+  line-height: 115.5%;
+  letter-spacing: -1%;
+  color: #ffffff;
+}
+
+h2 span {
+  color: #1c1415;
+}
+
+.hero_left h3 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 70px;
+  font-weight: 600;
+}
+
+p.slogan {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 190%;
+  color: #1c1415;
+}
+
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 137%;
+  letter-spacing: -1%;
+  color: #ffffff;
+}
+
+div.hero_left {
+  width: 50%;
+}
+
+.clickbtns {
+  border: 2px solid #000000;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  z-index: 2;
+}
+
+.next {
+  right: 2%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.prev {
+  left: 2%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.hero0 {
+  background-image: linear-gradient(
+    to right,
+    rgba(244, 167, 100, 1),
+    rgba(255, 222, 194, 1)
+  );
+}
+
+.hero1 {
+  background-image: linear-gradient(
+    to right,
+    rgba(48, 163, 87, 1),
+    rgba(117, 227, 154, 1)
+  );
+}
+
+.hero2 {
+  background-image: linear-gradient(
+    to right,
+    rgba(242, 79, 79, 1),
+    rgba(255, 168, 149, 1)
+  );
+}
+
+.hero3 {
+  background-image: linear-gradient(
+    to right,
+    rgba(173, 176, 176, 1),
+    rgba(225, 225, 225, 1)
+  );
+}
