@@ -12,7 +12,6 @@
         <div class="header">
             <h1>Kalli</h1>
             <i class="fa-solid fa-cart-shopping icon"></i>
-            
         </div>
         <div class="middle">
             <div class="left">
@@ -20,22 +19,35 @@
                 <h2>Black technical Kint fabric high-tops</h2>
                 <p>Running sneaker with thin elastic laces</p>
                 <div class="images">
-                    <img src="images/1.png" alt="">
-                    <img src="images/2.png" alt="">
-                    <img src="images/3.png" alt="">
-                    <img src="images/4.png" alt="">
+                    <img onclick="changeImage(0)" src="images/1.png" alt="">
+                    <img onclick="changeImage(1)" src="images/2.png" alt="">
+                    <img onclick="changeImage(2)" src="images/3.png" alt="">
+                    <img onclick="changeImage(3)" src="images/4.png" alt="">
+                </div>
+                <div class="arrows">
+                    <a onclick="prevSlide()"><i class="fa-solid fa-arrow-left-long icon"></i></a>
+                    <a onclick="nextSlide()"><i class="fa-solid fa-arrow-right-long icon"></i></a>
+                </div>
+                <div class="buttons">
+                    <button id="cart">ADD TO CART</button>
+                    <a onclick="iconChange()"><i class="fa-regular fa-heart icon plain_heart"></i></a>
                 </div>
             </div>
-            <div class="center"></div>
+            <div class="center">
+                <img src="/images/1.png" alt="">
+                <img src="/images/2.png" alt="">
+                <img src="/images/3.png" alt="">
+                <img src="/images/4.png" alt="">
+            </div>
             <div class="right">
                 <div class="size">
                     <h5>Size</h4>
                     <span class="sizes">
-                        <span>37</span>
-                        <span>38</span>
-                        <span>39</span>
-                        <span>40</span>
-                        <span>41</span>
+                        <span onclick="activeSize(event)">37</span>
+                        <span onclick="activeSize(event)">38</span>
+                        <span onclick="activeSize(event)">39</span>
+                        <span onclick="activeSize(event)">40</span>
+                        <span onclick="activeSize(event)">41</span>
                     </span>
                 </div>
                 <div class="reviews">
@@ -49,27 +61,15 @@
                 <div class="color">
                     <h5>Color</h4>
                     <div>
-                        <span class="black"></span>
-                        <span class="ash"></span>
-                        <span class="orange"></span>
-                        <span class="blue"></span>
+                        <span onclick="activeColor(event)" class="color_circle black"></span>
+                        <span onclick="activeColor(event)"  class="color_circle ash"></span>
+                        <span onclick="activeColor(event)"  class="color_circle orange"></span>
+                        <span onclick="activeColor(event)"  class="color_circle blue"></span>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="bottom">
-            <div class="arrows">
-                <i class="fa-solid fa-arrow-left-long icon"></i>
-                <i class="fa-solid fa-arrow-right-long icon"></i>
-            </div>
-            <div class="buttons">
-                <button id="cart">ADD TO CART</button>
-                <i class="fa-regular fa-heart icon"></i>
-            </div>
-
-        </div>
-
     </div>
-    
+    <script src="index.js"></script>    
 </body>
 </html>
