@@ -30,17 +30,16 @@
                 </div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
                 <div class="sizes">
-                    <button class="btn-size active">S</button>
-                    <button class="btn-size">M</button>
-                    <button class="btn-size">L</button>
-                    <button class="btn-size">XL</button>
+                    <button class="btn-size" onclick="activeButton(event)">S</button>
+                    <button class="btn-size" onclick="activeButton(event)">M</button>
+                    <button class="btn-size" onclick="activeButton(event)">L</button>
+                    <button class="btn-size" onclick="activeButton(event)">XL</button>
                 </div>
 
                 <div class="quantity">
-                    <button class="add-sub">-</button>
+                    <button class="add-sub" onclick="decrementer()">-</button>
                     <span class="quantity-number">1</span>
-                    <button class="add-sub">+</button>
-
+                    <button class="add-sub" onclick="incrementer()">+</button>
                 </div>
 
                  <button class="add-to-cart">Add to Cart <i class="fa-solid fa-arrow-right"></i></button>
@@ -48,6 +47,6 @@
             </div>
         </div>
     </div>
-    
+    <script src="index.js"></script>
 </body>
 </html>
