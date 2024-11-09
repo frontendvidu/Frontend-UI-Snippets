@@ -8,8 +8,9 @@
     <title>Figma-Interactive-Product-Card-UI-Design</title>
 </head>
 <body>
-    <div class="outer">
-        <div class="cards">
+    <button class="prev" onclick="previous()">&#60;</button>
+    <div id="outer" onmousewheel="onWheel(event)">
+        <div class="cards first">
             <img src="images/1.jpg" alt="">
             <div class="bottom">
                 <div class="left">
@@ -51,6 +52,50 @@
             </div>
             <button>Buy Now</button>
         </div>
+        <div class="cards">
+            <img src="images/3.jpg" alt="">
+            <div class="bottom">
+                <div class="left">
+                    <h4>Snickers Off-White 2024</h4>
+                    <p class="brand">NIKE</p>
+                    <p class="price">$38.00</p>
+                </div>
+                <div class="right">
+                    <i class="fa-solid fa-circle-plus icon"><span class="tooltiptext">Add to cart</span></i>
+                </div>
+            </div>
+            <button>Buy Now</button>
+        </div>
+        <div class="cards">
+            <img src="images/3.jpg" alt="">
+            <div class="bottom">
+                <div class="left">
+                    <h4>Snickers Off-White 2024</h4>
+                    <p class="brand">NIKE</p>
+                    <p class="price">$38.00</p>
+                </div>
+                <div class="right">
+                    <i class="fa-solid fa-circle-plus icon"><span class="tooltiptext">Add to cart</span></i>
+                </div>
+            </div>
+            <button>Buy Now</button>
+        </div>
+        <div class="cards">
+            <img src="images/3.jpg" alt="">
+            <div class="bottom">
+                <div class="left">
+                    <h4>Snickers Off-White 2024</h4>
+                    <p class="brand">NIKE</p>
+                    <p class="price">$38.00</p>
+                </div>
+                <div class="right">
+                    <i class="fa-solid fa-circle-plus icon"><span class="tooltiptext">Add to cart</span></i>
+                </div>
+            </div>
+            <button>Buy Now</button>
+        </div>
     </div>
+    <button class="next" onclick="next()">&#62;</button>
+    <script src="index.js"></script>
 </body>
 </html>
