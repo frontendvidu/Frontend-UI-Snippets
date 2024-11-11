@@ -33,7 +33,15 @@
             <button class="cta">Start your journey&nbsp;<i class="fa-solid fa-arrow-right"></i></button>
         </div>
         <div class="right">
-            <i class="fa-solid fa-bars icon-menu"></i>
+            <a class="menu" onclick="openMenu()"><i class="fa-solid fa-bars icon-menu hamburger"></i></a> <!----->
+            <div class="reponsive_menu">
+                <a class="close" onclick="closeMenu()">&#10006;</a>
+                <a href="#">MEMBERSHIPS</a><!----->
+                <a href="#">WHY US?</a><!----->
+                <a href="#">WORKOUTS</a><!----->
+                <a href="#">MERC</a><!----->
+                
+            </div>
             <div class="tabs">
                 <div class="tab">
                     <span class="tab-upper">
@@ -60,5 +68,6 @@
 
         </div>
     </section>
+    <script src="index.js"></script>
 </body>
 </html>
