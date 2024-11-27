@@ -1,4 +1,4 @@
-# Sections
+# Overview
 
 This folder contains reusable UI sections used across various pages of the website. Each sections are developed to be modular and can be easily integrated into different parts of your project.
 
