@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+#hero {
+  position: relative;
+  width: 100%;
+  background: url(images/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  z-index: 0;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.left {
+  position: relative;
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 133px;
+  padding-top: 152px;
+  padding-bottom: 10px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.logo {
+  position: absolute;
+  top: 5%;
+  left: 133px;
+}
+
+.right {
+  position: relative;
+  width: 50%;
+  height: inherit;
+  background: url(images/Illustration.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 84px;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.h1-style {
+  background: linear-gradient(
+    -199deg,
+    rgba(248, 168, 255, 1) 0%,
+    rgba(97, 85, 237, 1) 100%
+  );
+  background-clip: text;
+  color: transparent;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.3px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.stats {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  margin-top: 68px;
+  padding: 10px;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+h3 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+hr {
+  background-color: transparent;
+  border: 1.5px solid #eceeff;
+  height: 26px;
+  margin: auto 28px;
+}
+
+.cta {
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 49px;
+  transition: all 0.2s ease-in-out;
+}
+
+.cta:hover {
+  color: rgba(18, 4, 30, 1);
+  text-decoration: underline;
+}
+
+.blue-circle {
+  width: 592px;
+  height: 555px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgba(97, 85, 237, 0.8);
+  filter: blur(100px);
+  position: absolute;
+  left: -114px;
+  z-index: -1;
+}
+
+.tabs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 740px;
+  gap: 5px;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
+
+.tab {
+  width: 240px;
+  height: 86px;
+  border-radius: 16px;
+  border: none;
+  background: linear-gradient(
+    180deg,
+    rgba(250, 250, 255, 1) 0%,
+    rgba(207, 212, 254, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 23px 24px;
+  transition: all 0.5s ease-in-out;
+}
+
+.tab:hover {
+  background: linear-gradient(
+    180deg,
+    rgba(152, 143, 255, 1) 0%,
+    rgba(97, 85, 237, 1) 100%
+  );
+  transform: scale(1.05);
+
+  h4 {
+    color: rgba(255, 255, 255, 1);
+  }
+}
+
+.tab span {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 3px;
+}
+
+h4 {
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  font-weight: 700;
+  color: rgba(18, 4, 30, 1);
+  display: inline;
+}
+
+h5 {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  color: rgba(203, 199, 253, 1);
+}
+
+.icon-star {
+  color: rgba(233, 216, 63, 1);
+}
+
+.icon-menu {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 7%;
+  right: 15%;
+}
+
+.menu .hamburger {
+  display: block;
+}
+
+.reponsive_menu {
+  width: 300px;
+  display: none;
+  background-color: #e5e7eb;
+  position: absolute;
+  top: 5%;
+  right: 15%;
+  padding: 50px 15px 15px 15px;
+}
+
+.reponsive_menu a {
+  padding: 1rem;
+  text-decoration: none;
+  font-weight: 400;
+  display: block;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: black;
+  cursor: pointer;
+  transition: all 0.5 ease;
+}
+
+.reponsive_menu a:hover {
+  transform: scale(1.1);
+  color: rgb(165, 103, 220);
+}
+
+.reponsive_menu .close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  border: none;
+  color: black;
+}
