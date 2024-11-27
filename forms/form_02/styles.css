@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Elsie:wght@400;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Elsie", serif;
+}
+
+.form {
+    position: relative;
+    width: 100%;
+    min-height: 1113.2px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.hero-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(images/Ellipse.png);
+    background-position: right center;
+    background-size: cover;
+    width: 35%;
+    min-height: 1113.2px;
+    border-radius: 0 70em 50em 0;
+}
+
+.left {
+    width: 50%;
+    min-height: inherit;
+    position: relative;
+    padding: 91px 226px;
+}
+
+.right {
+    width: 50%;
+    min-height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 91px 226px;
+}
+
+.right h2 {
+    font-weight: 400;
+    font-size: 80px;
+    margin-bottom: 128px;
+    color: #D9D9D9;    
+}
+
+#username, #password {
+    background-color: transparent;
+    width: 602px;
+    height: 90px;    
+    border: none;
+}
+
+#username {
+    margin-bottom: 44px;
+}
+
+input::placeholder {
+    color: black;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#forget-your-password {
+    width: 602px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 5px;
+    margin-bottom: 52px;
+    text-align: right;
+}
+
+#forget-your-password a {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1713B9;
+    text-decoration: none;
+}
+
+hr {
+    margin-bottom: 73px;
+    border: 1px dashed black;
+    width: 438px;
+}
+
+button {
+    background-color: #DE955A;
+    color: black;
+    width: 602px;
+    height: 90px;
+    font-size: 30px;
+    font-weight: 400;
+    border: none;
+    margin-bottom: 62px;
+    transition: all 0.5s ease-in-out;
+}
+
+
+button:hover {
+    border: 5px solid #1713B9;
+    color: #1713B9;
+    transform: scale(1.1);
+}
+
+#create-an-account {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1713B9;
+    text-decoration: none;
+    margin-bottom: 42px;
+}
+
+.right p {
+    margin-bottom: 42px;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.icon {
+    color: black;
+    font-size: 50px;
+}
+
+.l, .o, .g, .i, .n {
+    font-size: 250px;
+    font-weight: 400;
+    position: absolute;
+    color: transparent;
+    -webkit-text-stroke: 1px black;
+}
+
+.l {
+    top: 1%;
+    left: 49%;
+}
+
+.o {
+    top: 17%;
+    left: 58%;
+    z-index: 2;
+    
+}
+
+.g {
+    top: 35%;
+    left: 63%;
+}
+
+.i {
+    top: 55%;
+    left: 68%;
+    z-index: 2;
+}
+
+.n {
+    top: 75%;
+    left: 58%;
+    z-index: 2;
+}

@@ -1,0 +1,246 @@
+@font-face {
+    font-family: 'semiBold';
+    src: url(fonts/SourceSansPro-Semibold.otf);
+}
+
+@font-face {
+    font-family: 'regularFont';
+    src: url(fonts/SourceSansPro-Regular.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(17, 24, 39, 1);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.outer {
+    background-color: rgba(31, 41, 55, 1);
+    width: 736px;
+    height: 420px;
+    padding: 32px;
+
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+}
+
+.left {
+    width: 328px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.one,
+.two {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.three {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.three div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.labelText {
+    font-size: 14px;
+    color: rgba(229, 231, 235, 1);
+    font-family: 'semiBold';
+
+}
+
+input {
+    background-color: rgba(17, 24, 39, 1);
+    padding: 12px;
+    border-radius: 4px;
+    border: 1px solid rgba(55, 65, 81, 1);
+    margin-top: 4px;
+    width: 328px;
+}
+
+.date {
+    width: 182px;
+}
+
+.cvv {
+    width: 130px;
+}
+
+.pay-button {
+    width: 672px;
+    height: 56px;
+    padding: 16px 48px;
+    border-radius: 4px;
+    background-color: rgba(147, 51, 234, 1);
+    border: none;
+    color: rgba(249, 250, 251, 1);
+    font-family: 'semiBold';
+    font-size: 18px;
+    margin-top: 48px;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.pay-button:hover {
+    transform: scale(1.02);
+}
+
+.right {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    color: rgba(110, 231, 183, 1);
+    margin-right: 8px;
+    margin-top: 32px;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    border-radius: 16px;
+    border: 1px solid rgba(55, 65, 81, 1);
+    overflow: hidden;
+    background:
+        linear-gradient(rgba(17, 24, 39, 1), rgba(17, 24, 39, 1)),
+        linear-gradient(rgba(17, 24, 39, 0.4),rgba(17, 24, 39, 0.4));
+
+}
+
+.card-content {
+    position: relative;
+    z-index: 1;
+    backdrop-filter: blur(38px);
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-top: 20px;
+    padding-bottom: 23px;
+    border-radius: 16px;
+    border: none;
+}
+
+.card-top,
+.card-middle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-middle {
+    margin-top: 50px;
+}
+
+.card-number {
+    font-size: 16px;
+    font-family: 'semiBold';
+    color: rgba(249, 250, 251, 1);
+}
+
+.card-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 27px;
+}
+
+.bottom-text {
+    font-size: 14px;
+    font-family: 'regularFont';
+    color: rgba(249, 250, 251, 1);
+    /* mix-blend-mode: lighten; */
+    opacity: 0.5;
+}
+
+.green-circle {
+    width: 129.45px;
+    height: 124.81px;
+    background-color: rgba(45, 212, 191, 1);
+    position: absolute;
+    bottom: -18px;
+    right: -18px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.purple-elipse {
+    width: 134.02px;
+    height: 208.97px;
+    position: absolute;
+    top: -40px;
+    right: 10px;
+    background-color: rgba(168, 85, 247, 1);
+    border-radius: 50%;
+    transform: rotate(-45deg);
+}
+
+.green-circle-two {
+    width: 77.45px;
+    height: 120.65px;
+    position: absolute;
+    top: -50px;
+    right: 65px;
+    background-color: rgba(45, 212, 191, 0.8);
+    border-radius: 50%;
+    transform: rotate(-45deg);
+}
+
+.green-circle-three {
+    width: 77.45px;
+    height: 120.65px;
+    position: absolute;
+    bottom: -30px;
+    left: -50px;
+    background-color: rgba(45, 212, 191, 0.64);
+    border-radius: 50%;
+    transform: rotate(-45deg);
+    z-index: 1;
+}
+
+.purple-elipse-two {
+    width: 134.02px;
+    height: 208.97px;
+    position: absolute;
+    bottom: -60px;
+    left: -90px;
+    background-color: rgba(168, 85, 247, 1);
+    border-radius: 50%;
+    transform: rotate(-45deg);
+}
+
+input::placeholder {
+    color: rgba(156, 163, 175, 1);
+    font-size: 16px;
+    font-family: 'regularFont';
+}
+
+input {
+    color: rgba(243, 244, 246, 1);
+    font-size: 16px;
+    font-family: 'regularFont';
+}
