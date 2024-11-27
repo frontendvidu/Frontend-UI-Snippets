@@ -1,20 +1,14 @@
-# PUBLIC
+# Sections
 
-Hello! I am VIDUSEN (@frontendvidu).
+This folder contains reusable UI sections used across various pages of the website. Each sections are developed to be modular and can be easily integrated into different parts of your project.
 
-This folder contains the publicly accessible assets and content for websites and projects shared by me. It includes both reusable sections and complete web pages that form the structure and functionality of the website.
+Lanuages used - HTML || CSS || Javascript
 
-## Sections
+## Contents
 
-The `Sections` folder contains reusable UI sections used throughout websites. Each sections is developed to be modular and can be easily integrated into different pages.
-
-## Pages
-
-The `Pages` folder contains complete web pages of the website. Each page is fully developed and includes all necessary sections and styles.
-
-
-### Usage
-
-Feel free to use the sections and pages in this repo as templates in your project.
-
-Cheers with Love❤ and happy coding😊✌...
+- **buttons** : Includes different styles of buttons used in the website.
+- **forms** : Contains various form elements such as contact forms, login forms, and signup forms.
+- **heros** : Different header sections that can be used at the top of pages.
+- **shoppingCarts**: Sections related to shopping cart functionality.
+- **linktrees**: Linktree sections to organize and display multiple links.
+- **uiCards**: Various card components for displaying content in a card layout.
